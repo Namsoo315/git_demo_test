@@ -1,8 +1,10 @@
-import java.util.*;
-
 public class Calculator {
-    public int add(Short a, Short b){
-        
-        return a + b;
+    public long add(String str1, String str2){
+        int a = Integer.parseInt(str1);
+        int b = Integer.parseInt(str1);
+
+        long longA = a;
+        long longB = b;
+        return longA + longB;
     }
 }
